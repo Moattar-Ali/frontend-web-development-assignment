@@ -15,7 +15,7 @@ export default function Bestseller(){
     ];
 
     return(
-       <div className="justify-center items-center w-full">
+       <div className="justify-center items-center">
         <div className="flex flex-col mt-10 mb-12 text-center mx-auto my-auto">
             <h4 className="text-xl mt-3">Featured Products</h4>
             <h3 className="font-bold text-3xl mt-3">BESTSELLER PRODUCTS</h3>
