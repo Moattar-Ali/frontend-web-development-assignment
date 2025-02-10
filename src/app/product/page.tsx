@@ -23,22 +23,25 @@ export default function ProductList (){
         <>
        <Header1/>
         
-        <div className="flex w-full justify-evenly m-10 gap-[350px]">
-            <h3 className="text-2xl font-bold mr-60">Shop</h3>
-
+        <div className="w-full justify-center items-center mt-2 mx-auto my-auto px-auto">
+            <div className="flex flex-wrap justify-center mx-auto gap-60"> 
+                <div>
+            <h3 className="text-2xl font-bold">Shop</h3>
+            </div>
             
-            <div className="flex gap-2 items-center mr-20">
-            <Link href="/" className=" flex gap-2 font-bold">
+            <div className="flex items-center">
+            <Link href="/" className="flex gap-2 font-bold">
              Home
              <SlArrowRight className="h-[16px] w-[16px] mt-1 text-gray-500"/>
             </Link>
              
               <Link href="/shop" className="text-gray-500">Shop</Link>
             </div>
+            </div>
 </div>
-            <div className="h-[223px] w-[1088px] flex justify-evenly gap-6 items-center mx-[400px] my-20">
+            <div className="h-[223px] w-[1088px] flex justify-evenly gap-6 items-center mx-auto my-20 p-5">
             {productBg.map((image, index)=> (
-                <div key={index}>
+                <div key={index} className="mx-auto">
                     <Image src={image} alt={`product image ${index+1}`} height={223} width={205} />
                     <div className="relative bottom-[120px] left-10" >
                         <h5 className="font-bold text-white ">CLOTHS</h5>
@@ -48,7 +51,7 @@ export default function ProductList (){
             ))}
             </div>
 
-        <div className="flex justify-evenly items-center text-center mr-40 ml-40">
+        <div className="flex flex-wrap justify-center gap-10 items-center text-center mx-auto">
        <h6 className="text-gray-500 font-bold">Showing all 12 results</h6>
        <h6 className="flex text-gray-500 font-bold gap-5">Views: <HiViewGrid className="border h-[16px] w-[16px] mt-1" /><FaOutdent className="border h-[16px] w-[16px] mt-1"/></h6>
        <div className="flex gap-4">

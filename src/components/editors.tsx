@@ -6,7 +6,7 @@ export default function Editor(){
 <h3 className="text-center text-3xl font-bold">EDITOR’S PICK</h3>
 <p className="text-center text-gray-500 mt-3 text-xl font-bold">Problems trying to resolve the conflict between </p>
 
-<div className="flex mt-10 px-40 gap-10 text-center">
+<div className="flex flex-wrap mt-10 px-40 gap-10 text-center">
 
 <div className="h-[500px] w-[510px] bg-cover" style={{backgroundImage:"url('/filter.png')"}}>
 <div className="relative bottom-0 left-0 bg-white text-black h-[48px] w-[170px] font-bold text-normal p-2 ml-10 mt-[420px]">MEN</div>

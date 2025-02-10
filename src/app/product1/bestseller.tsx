@@ -14,12 +14,12 @@ export default function BestSell (){
     ]
     return(
         <div className="w-full justify-center items-center">
-            <h3 className="font-bold text-2xl mt-10 mb-10 mx-auto ml-[380px]">BESTSELLER PRODUCTS</h3>
+            <h3 className="font-bold text-2xl mt-10 mb-10 text-center">BESTSELLER PRODUCTS</h3>
             
-                <div className="flex flex-wrap h-[1086px] w-[1124px] justify-center ml-80 mt-5 gap-6 border-t shadow-md">
+                <div className="flex flex-wrap w-full justify-center mx-auto mt-5 gap-6 border-t shadow-md">
                 {bestSellItem.map((image, index)=>(
                     <div key={index} className="h-[432px] w-[238px] ml-4 mt-5">
-                        <Image src={image} alt={`best seller ${index+1}`} height={280} width={239} layout="responsive"/>
+                        <Image src={image} alt={`best seller ${index+1}`} height={280} width={239}/>
                           <div className="text-center mt-5">
                             <h5 className="font-bold text-xl justify-center items-center mx-auto">Graphic Design</h5>
                             <p className="text-gray-500 font-bold text-normal mx-auto justify-center items-center p-5">English Department</p>

@@ -1,11 +1,12 @@
 import Link from "next/link";
+import Image from "next/image";
 import { FaFacebookSquare, FaInstagram, FaLinkedin } from "react-icons/fa";
 import { IoLogoTwitter } from "react-icons/io5";
 
 export default function GetInTouch(){
     return(
-        
-            <div className="h-[800px] w-[100%] justify-center items-center ml-60" style={{backgroundImage:"url('/hero-2-bg-shape-cover.png')"}}>
+            <div className="flex justify-center items-center mb-[2%]">
+                    <div className="flex flex-col items-left">
             <h5 className="text-gray-500 font-bold mx-40 pt-40">CONTACT US</h5>
             <h1 className="font-bold text-gray-800 text-6xl mx-40 pt-10">Get in touch <br></br>
             today!</h1>
@@ -14,6 +15,7 @@ export default function GetInTouch(){
             but things on a small scale</h4>
             <h3 className="font-bold text-2xl text-gray-800 mt-10 mx-40">Phone ; +451 215 215 </h3>
             <h3 className="font-bold text-2xl text-gray-800 mt-5 mx-40">Fax : +451 215 215</h3>
+          
             <ul className="flex gap-8 mt-10 text-center items-center mx-40">
                 <Link href="">
                
@@ -33,6 +35,9 @@ export default function GetInTouch(){
             </Link>
             </ul>
             </div>
+            <Image src='/hero-2-bg-shape-cover.png' alt="background image" height={800} width={800} />
+            </div>
+        
             
         
     )

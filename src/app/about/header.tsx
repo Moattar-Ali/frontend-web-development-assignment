@@ -3,7 +3,7 @@ import { GoArrowRight } from "react-icons/go";
 
 export default function Header2(){
     return(
-    <div className="bg-white flex items-center text-center justify-evenly ml-[250px] mr-80 gap-4">
+    <div className="bg-white flex items-center text-center justify-center ml-[250px] mr-80 gap-4">
     <h3 className="text-gray-800 px-8 py-3 items-center font-bold text-2xl">Bandage</h3>
     <ul className="flex text-gray-500 items-center gap-10 justify-center px-8 font-bold ">
 

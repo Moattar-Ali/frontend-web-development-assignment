@@ -1,5 +1,4 @@
-/* eslint-disable react/jsx-key */
-/* eslint-disable @typescript-eslint/no-unused-vars */
+
 import Image from "next/image";
 
 export default function Bestseller(){
@@ -15,7 +14,7 @@ export default function Bestseller(){
     ];
 
     return(
-       <div className="justify-center items-center">
+       <div className="justify-center items-center mx-auto my-auto">
         <div className="flex flex-col mt-10 mb-12 text-center mx-auto my-auto">
             <h4 className="text-xl mt-3">Featured Products</h4>
             <h3 className="font-bold text-3xl mt-3">BESTSELLER PRODUCTS</h3>
@@ -23,7 +22,7 @@ export default function Bestseller(){
         </div>
         <div className="flex flex-wrap w-[1124px] h-[1652px] mx-auto gap-8">
             {productImages.map((image, index)=>(
-                <div key={index}>
+                <div key={index} className="">
                     <div>
                         <Image src={image} 
                         alt={`products ${index+1}`}

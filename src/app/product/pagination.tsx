@@ -2,8 +2,8 @@ import Link from "next/link";
 
  export default function Pagination(){
     return(
-        <div className="w-full justify-center items-center text-center">
-        <ul className="flex h-[74px] w-[313px] border shadow-md rounded-md justify-center items-center text-center font-bold ml-[700px] mb-20">
+        <div className="items-center text-center relative top-0">
+        <ul className="flex h-[74px] w-[313px] border shadow-md rounded-md justify-center items-center text-center font-bold mx-auto">
             <Link href="/product">
             <li className="border h-[74px] w-[84px] text-gray-300 items-center bg-gray-100 justify-center text-center pt-6">First</li>
             </Link>

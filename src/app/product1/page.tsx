@@ -12,7 +12,7 @@ export default function Product1 (){
         <div>
             <Header1/>
             
-            <div className="w-full flex gap-2 items-center mt-10 ml-[400px]">
+            <div className="w-full flex gap-2 justify-center items-center mt-10">
             <Link href="/" className=" flex gap-2 font-bold">
              Home
              <SlArrowRight className="h-[16px] w-[16px] mt-1 text-gray-500"/>

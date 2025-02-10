@@ -8,8 +8,8 @@ import { RiArrowDropDownLine } from "react-icons/ri";
 
 export default function Header1(){
     return(
-        <>
-        <div className="h-[136px] w-[1439px] bg-[#FFFFFF] mx-auto flex flex-col border-b shadow-sm items-center">
+        <div className="mx-auto justify-center items-center">
+        <div className="h-[136px] w-[100%] bg-[#FFFFFF] mx-auto flex flex-wrap flex-col border-b shadow-sm items-center">
         <div className="w-full bg-[#23856D] text-white font-bold justify-center gap-14 flex items-center px-6 py-4">
           <div className="items-center flex flex-row gap-2 text-gray-300">
       <IoCallOutline className="h-[16px] w-[16px]"/>(225) 555-0118
@@ -49,7 +49,7 @@ export default function Header1(){
       </div>
       </div>
       </div>
-    <div className="bg-white w-full flex justify-evenly">
+    <div className="bg-white w-full flex justify-center">
       <h3 className="text-gray-800 px-8 py-3 items-center font-bold text-2xl">Bandage</h3>
       <ul className="flex text-gray-500 items-center gap-6 justify-center px-6 font-bold">
 
@@ -102,6 +102,6 @@ export default function Header1(){
         </div>
         </div>
        </div>
-        </>
+       </div>
     )
 }
