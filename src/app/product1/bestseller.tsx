@@ -13,7 +13,7 @@ export default function BestSell (){
         
     ]
     return(
-        <div>
+        <div className="w-full justify-center items-center">
             <h3 className="font-bold text-2xl mt-10 mb-10 mx-auto ml-[380px]">BESTSELLER PRODUCTS</h3>
             
                 <div className="flex flex-wrap h-[1086px] w-[1124px] justify-center ml-80 mt-5 gap-6 border-t shadow-md">
