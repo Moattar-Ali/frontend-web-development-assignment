@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.color{
+    height:16px;
+    width:16px;
+    border-radius: 50%;
+}
+
+.color.blue{
+    background-color:#23A6F0;
+}
+
+.color.green{
+    background-color:#23856D;
+}
+
+.color.orange{
+    background-color:#E77C40;
+}
+
+.color.black{
+    background-color:#E77C40;
+}
