@@ -2,7 +2,7 @@ import Image from "next/image"
 
 export default function CompanyAbout(){
     return(
-        <>
+        <div>
    <div className="flex justify-center gap-20">
     <div className="h-[321px] w-[559px] mt-40">
         <h5 className="font-bold mt-10">ABOUT COMPANY</h5>
@@ -24,6 +24,7 @@ export default function CompanyAbout(){
    </div>
    </div>
   
-        </>
+        
+        </div>
     )
 }

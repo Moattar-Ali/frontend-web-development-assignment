@@ -9,7 +9,7 @@ import { RiArrowDropDownLine } from "react-icons/ri";
 export default function Header1(){
     return(
         <div className="mx-auto justify-center items-center">
-        <div className="h-[136px] w-[100%] bg-[#FFFFFF] mx-auto flex flex-wrap flex-col border-b shadow-sm items-center">
+        <div className="h-[136px] w-[1439px] bg-[#FFFFFF] mx-auto flex flex-wrap flex-col border-b shadow-sm items-center">
         <div className="w-full bg-[#23856D] text-white font-bold justify-center gap-14 flex items-center px-6 py-4">
           <div className="items-center flex flex-row gap-2 text-gray-300">
       <IoCallOutline className="h-[16px] w-[16px]"/>(225) 555-0118

@@ -11,7 +11,7 @@ export default function Brands(){
             "/Vector.png"
     ]
     return(
-<div className="flex flex-wrap gap-[2%] h-[20%] w-full mt-[2%] mb-[2%] justify-center mx-auto my-auto">
+<div className="flex flex-wrap gap-5 h-[150px] w-full mt-10 mb-10 justify-center mx-auto my-auto">
 
     {brands.map((image,index)=>(
         <div key={index} className="gap-2 justify-center items-center">

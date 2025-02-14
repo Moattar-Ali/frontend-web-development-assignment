@@ -32,7 +32,7 @@ export default function Description (){
             <p>Met minim Mollie non desert Alamo est sit cliquey dolor do met sent. RELIT official consequent door ENIM RELIT Mollie. Excitation venial consequent sent nostrum met.</p>
 
         </div>
-        <div className="h-[367px] w-[332px] font-bold mb-4">
+        <div className="h-[367px] w-[332px] font-bold mb-4 flex flex-col">
             <h3 className="text-2xl text-gray-700 mb-6">the quick fox jumps over </h3>
             <p className="flex text-gray-500 mb-4 gap-2"><MdKeyboardArrowRight className="h-[25px] w-[25px]"/>the quick fox jumps over the lazy dog
             </p>

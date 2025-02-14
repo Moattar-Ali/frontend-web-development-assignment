@@ -57,7 +57,7 @@ export default function CarouselItem (){
                        </div>
             </div>
             </div>
-        <div className="flex gap-4 items-left justify-left ml-[5%]">
+        <div className="flex gap-4 items-left justify-left ml-20">
              {carouselCaption.map((image,index)=>(
                 <div key={index}>
                     <Image src={image} alt={`carousel item ${index+1}`} height={75} width={100}/>

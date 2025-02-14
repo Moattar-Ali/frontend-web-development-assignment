@@ -41,7 +41,7 @@ export default function SmallBusiness(){
                 </div>
             </div>
             <div className="font-bold text-gray-800 items-center text-center justify-center mt-10">
-            <PiArrowBendRightDownLight className="h-[72px] w-[72px] text-[#23A6F0] ml-[48%] mt-20 mb-5"/>
+            <PiArrowBendRightDownLight className="h-[72px] w-[72px] text-[#23A6F0] ml-80 mt-20 mb-5"/>
                 <h5>WE Can't WAIT TO MEET YOU</h5>
                 <h1 className="mt-5 mb-10 text-6xl">Let’s Talk</h1>
                 <button className="h-[52px] w-[186px] bg-[#23A6F0] text-white font bold rounded-md">Try it free now</button>

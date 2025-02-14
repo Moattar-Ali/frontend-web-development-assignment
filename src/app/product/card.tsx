@@ -17,11 +17,11 @@ export default function ProductCard(){
     ]
 
     return(
-        <div className="h-[1778px] w-[1124px] flex gap-6 flex-wrap m-[2%] mx-auto justify-center items-center">
+        <div className="h-[1778px] w-[1124px] flex gap-6 flex-wrap m-5 mx-auto justify-center items-center">
          {cards.map((image, index)=>(
             <div key={index}>
         <Image src={image} alt={`card ${index+1}`} height={300} width={239} />
-        <div className="gap-[2%]">
+        <div className="gap-10">
                         <div className="text-center m-2">
                             <h5 className="font-bold text-xl justify-center items-center mt-4">Graphic Design</h5>
                             <p className="text-gray-500 font-bold text-normal mb-2 justify-center items-center p-5">English Department</p>

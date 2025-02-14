@@ -5,7 +5,7 @@ import { IoLogoTwitter } from "react-icons/io5";
 
 export default function GetInTouch(){
     return(
-            <div className="flex justify-center items-center mb-[2%]">
+            <div className="flex justify-center items-center mb-10 mt-10">
                     <div className="flex flex-col items-left">
             <h5 className="text-gray-500 font-bold mx-40 pt-40">CONTACT US</h5>
             <h1 className="font-bold text-gray-800 text-6xl mx-40 pt-10">Get in touch <br></br>

@@ -15,7 +15,7 @@ export default function Bestseller(){
 
     return(
        <div className="justify-center items-center mx-auto my-auto">
-        <div className="flex flex-col mt-10 mb-12 text-center mx-auto my-auto">
+        <div className="flex flex-col mt-10 mb-12 text-center mx-auto my-auto items-center">
             <h4 className="text-xl mt-3">Featured Products</h4>
             <h3 className="font-bold text-3xl mt-3">BESTSELLER PRODUCTS</h3>
             <p className="text-gray-500 text-xl mt-3 font-bold">Problems trying to resolve the conflict between </p>

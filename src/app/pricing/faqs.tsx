@@ -64,7 +64,7 @@ export default function FAQs(){
             
             
             <div className="flex justify-center">
-            <div className="w-[1056px] h-[537px] grid grid-cols-2 mb-20 mt-20 gap-10">
+            <div className="grid grid-cols-2 mb-20 mt-20 gap-10">
                  {iData.map((IData)=>(
                     
                     <div className="h-[139px] w-full gap-[30px] mt-5">
